@@ -1,0 +1,24 @@
+@media screen and (min-width: 100px) and (max-width: 768px) {
+    .linktex-mobile-display {
+        display: inline !important;
+    }
+    .linktex-desktop-display {
+        display: none;
+    }
+
+    .small-box h3{
+        font-size: 1.375rem;
+    }
+}
+
+ /*
+ media upload page
+ */
+.search-wrapper, .search-form{
+    display: inline;
+}
+
+.search-wrapper .form-control{
+    width: 50%;
+    display: inline;
+}

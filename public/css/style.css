@@ -1,0 +1,76 @@
+#Login-Register-Container{
+    margin: 4rem 0 2rem 0;
+}
+
+.body-login, .body-register{
+    background: url(../local/images/testimonials.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+}
+
+#Login-Register-Container .login-box-body p{
+    padding-bottom: 2rem;
+    padding-top: 0.5rem;
+    color: #EDEFF2;
+}
+
+#Login-Register-Container .login-logo h2{
+    color: #EDEFF2;
+    font-size: 1.25em;
+}
+
+
+.panel-default > .panel-heading a:after {
+    content: "";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smooting: grayscale;
+    float: right;
+    transform: rotate(90deg);
+}
+
+.panel-default > .panel-heading a[aria-expanded="true"]{
+    color: #e8ebee;
+}
+
+.panel-default > .panel-heading a[aria-expanded="true"]:after{
+    content: "\2212";
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.panel-default > .panel-heading a[aria-expanded="false"]:after{
+    content: "\002b";
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.comments{
+    padding-bottom: 1rem;
+}
+.comments .comment-body{
+    font-size: 0.875rem;
+    word-wrap: normal;
+    word-break: normal;
+    text-align: justify;
+    float: left;
+    width: 70%;
+}
+.comments .comment-body .comment-by{
+    font-style: italic;
+    font-size: 0.75rem;
+}
+
+.comments .comment-date{
+    font-size: 0.75rem;
+    text-align: right;
+}
